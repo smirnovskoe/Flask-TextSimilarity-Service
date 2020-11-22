@@ -1,0 +1,6 @@
+# Flask REST API for ML model
+
+### Text Similarity Score
+- ...
+### Endpoints
+- ...
