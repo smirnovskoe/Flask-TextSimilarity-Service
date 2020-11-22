@@ -6,13 +6,13 @@
 - main libs: torch  (776.7 MB =( ), sentence_transformers 
 ### Endpoints
 Use POST request to send data to the service
-- http://0.0.0.0:9000/api/ml
+- Endpoint: http://0.0.0.0:9000/api/ml
 - Data format (JSON):
 {
     "text1": "***your first text***",
     "text2": "***your second text***"
 }
-P.S. simple example in test.py 
+- simple POST request: test.py 
 ### Run with Docker
 1. sudo docker build -t flask-txtsim-service .
 2. sudo docker run 
