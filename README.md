@@ -14,5 +14,5 @@ Use POST request to send data to the service
 }
 - simple POST request: test.py 
 ### Run with Docker
-1. sudo docker build -t flask-txtsim-service .
-2. sudo docker run 
+1. sudo docker build -t flask-txtsim-image .
+2. sudo docker run --rm --name flask-txtsim-service -p 9999:9999 flask-txtsim-image
