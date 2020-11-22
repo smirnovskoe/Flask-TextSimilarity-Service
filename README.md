@@ -6,7 +6,7 @@
 - main libs: torch  (776.7 MB =( ), sentence_transformers 
 ### Endpoints
 Use POST request to send data to the service
-- Endpoint: http://0.0.0.0:9000/api/ml
+- Endpoint: http://0.0.0.0:9999/api/ml
 - Data format (JSON):
 {
     "text1": "***your first text***",
